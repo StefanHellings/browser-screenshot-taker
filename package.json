@@ -1,0 +1,17 @@
+{
+  "name": "browser-screenshot-taker",
+  "version": "1.0.0",
+  "description": "Takes screenshots of a list of webpages",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "capture-and-crop": "node src/take-screenshots.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Hellings",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^16.2.0",
+    "sharp": "^0.32.1"
+  }
+}
