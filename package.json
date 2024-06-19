@@ -11,7 +11,7 @@
   "author": "Stefan Hellings",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^16.2.0",
+    "puppeteer": "^22.11.2",
     "sharp": "^0.32.6"
   }
 }
